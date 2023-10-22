@@ -1,0 +1,41 @@
+.home {
+  padding: 36px 55px;
+  width: 100%;
+  height: 100vh;
+
+  .wrapper {
+    width: 100%;
+    @media (min-width: 768px) {
+      width: 80%;
+    }
+
+    @media (min-width: 1200px) {
+      width: 60%;
+    }
+
+    svg {
+      color: #fff;
+      font-size: 20px;
+    }
+
+    .wrapper-header {
+      padding-bottom: 10px;
+      border-bottom: 1px solid #3d3d3d;
+    }
+
+    .wrapper-title {
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    .add-task-btn {
+      padding: 10px 0;
+      .button {
+        padding: 0;
+      }
+    }
+  }
+  span {
+    color: #fff;
+  }
+}

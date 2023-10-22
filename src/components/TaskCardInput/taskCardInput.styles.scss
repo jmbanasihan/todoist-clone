@@ -1,0 +1,29 @@
+.task-card-input {
+  border: 1px solid #3d3d3d;
+  border-radius: 6px;
+  padding: 10px;
+  gap: 10px;
+
+  &__input-group {
+    gap: 15px;
+    input {
+      border-color: transparent;
+      background: transparent;
+      color: #fffd;
+    }
+    input:focus-visible {
+      outline: 0;
+    }
+
+    input:first-child {
+      font-size: 20px;
+      font-weight: 600;
+    }
+  }
+
+  &__footer {
+    gap: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #3d3d3d;
+  }
+}
